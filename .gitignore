@@ -1,6 +1,9 @@
 # Kunci rahasia -- JANGAN PERNAH commit
 .streamlit/secrets.toml
 
+# Tooling lokal (Claude Code launch/preview config)
+.claude/
+
 # Virtualenv & cache
 .venv/
 __pycache__/
