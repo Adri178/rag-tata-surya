@@ -7,3 +7,4 @@ groq==1.4.0
 sentence-transformers==5.5.1
 wikipedia==1.4.0
 torch
+protobuf==3.20.3
