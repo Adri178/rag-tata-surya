@@ -1,0 +1,14 @@
+# Kunci rahasia -- JANGAN PERNAH commit
+.streamlit/secrets.toml
+
+# Virtualenv & cache
+.venv/
+__pycache__/
+*.pyc
+
+# Catatan lokal
+New Text Document.txt
+streamlit.log
+
+# CATATAN: folder chroma_db/ SENGAJA di-commit (indeks siap pakai, 7.7 MB)
+# supaya app di Streamlit Cloud tidak perlu re-index dari Wikipedia saat start.
